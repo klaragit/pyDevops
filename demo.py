@@ -6,8 +6,9 @@ from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Chrome('/Users/k/Documents/DevOps/PythonForTesters/webdrivers/chromedriver')
 
-browser.get('https://www.google.com/doodles/')
+browser.get('https://apis.emergecds.com/api/v1/search/launchNewRelic?AccountID=ATHENA-NMHI-PROD&SSOToken=64255e05-07c7-478a-941a-4e44d15c62ca&disableRefetch=true')
 time.sleep(3)
+
 
 # scroller
  # html = browser.find_element_by_tag_name('html')
